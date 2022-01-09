@@ -55,8 +55,8 @@ body {
 .info-text {
   background-color: #524c50;
   color: white;
-  width: 50vw !important;
-  height: 30vw;
+  width: 80vw !important;
+  height: 20vw;
   font-size: 1.6vw;
   z-index: 1;
   box-shadow: 0 10vw 0 rgba(0, 0, 0, 0.479);
@@ -71,8 +71,8 @@ body {
 .info-text-two {
   background-color: #a08f7f;
   color: white;
-  width: 60vw !important;
-  height: 40vw;
+  width: 85vw !important;
+  height: 30vw;
   text-align: left;
   font-size: 1.5vw;
   box-shadow: 0px -7vw 0px #a08f7f93;
@@ -90,7 +90,7 @@ body {
 .text-block {
   position: absolute;
   bottom: -2vw;
-  right: 0.1vw;
+  right: 0vw;
   font-size: 1.5vw;
   width: 40vw;
   height: 60vw;
@@ -134,8 +134,53 @@ body {
 
 .bull {
   position: absolute;
-  transform: translate(350%, -60%);
+  /* transform: translate(300%, -60%); */
+  top: -15vw;
+  right: -5vw;
   z-index: -1;
   width: 20vw;
   height: auto;
+}
+.parent {
+  width: 50vw;
+  height: 100vw;
+  position: relative;
+}
+.img-on-leaf {
+  position: absolute;
+  top: 0vw;
+  left: 2vw;
+  width: 20vw;
+  top: 0vw;
+}
+.img-on-1 {
+  position: absolute;
+  top: 20vw;
+  left: 2vw;
+  width: 30vw;
+}
+.img-on-2 {
+  position: absolute;
+  width: 20vw;
+  left: 25vw;
+  top: 10vw;
+
+  z-index: -1;
+}
+.img-on-3 {
+  position: absolute;
+  left: 2vw;
+  width: 20vw;
+  top: 30vw;
+  z-index: -1;
+}
+.img-on-4 {
+  position: absolute;
+  top: 55vw;
+  left: 17vw;
+  width: 30vw;
+}
+.on-image-text {
+  font-size: 2vw;
+  font-family: Arial, Helvetica, sans-serif;
 }
