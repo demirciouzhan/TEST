@@ -90,7 +90,7 @@ body {
 .text-block {
   position: absolute;
   bottom: -2vw;
-  right: 0vw;
+  right: 3vw;
   font-size: 1.5vw;
   width: 40vw;
   height: 60vw;
@@ -136,7 +136,7 @@ body {
   position: absolute;
   /* transform: translate(300%, -60%); */
   top: -15vw;
-  right: -5vw;
+  right: 5vw;
   z-index: -1;
   width: 20vw;
   height: auto;
@@ -183,4 +183,17 @@ body {
 .on-image-text {
   font-size: 2vw;
   font-family: Arial, Helvetica, sans-serif;
+}
+.iletisim {
+  margin-bottom: 10vw;
+}
+.left-black-arrow {
+  width: 5vw;
+}
+.iletisim-text {
+  font-size: 1.3vw;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.logolar {
+  width: 3vw;
 }
