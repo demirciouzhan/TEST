@@ -6,7 +6,7 @@ body {
   width: 100%;
   height: auto;
   overflow-x: hidden;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Luxurious Roman", cursive;
 }
 
 .safety-charter {
@@ -14,27 +14,33 @@ body {
   height: 20px;
 }
 .first-header {
+  padding: 1vw 1vw;
   background-color: #a08f7f;
+  margin-bottom: 2vw;
 }
 .second-header {
   background-color: #524c50;
+  padding: 1vw 1vw;
 }
 .logo {
-  width: 20%;
+  width: 20vw;
   height: auto;
 }
 .nav-link,
 .navbar-brand {
   color: white !important;
-  font-size: 20px;
+  font-size: 1.4vw;
   display: flex;
+  margin-left: 2vw;
+  font-family: "Luxurious Roman", cursive;
+  justify-content: space-evenly;
 }
 .collapse {
   flex-grow: 0 !important;
 }
 
 .left-arrow {
-  width: 20%;
+  width: 5vw;
 }
 
 .Lounge {
@@ -51,6 +57,9 @@ body {
 .cup {
   width: 50%;
   height: auto;
+}
+.arrow-lounge {
+  display: flex;
 }
 .info-text {
   background-color: #524c50;
@@ -84,7 +93,7 @@ body {
 }
 .third {
   position: relative;
-  font-family: Arial;
+  font-family: "Luxurious Roman", cursive;
 }
 
 .text-block {
